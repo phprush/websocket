@@ -5,6 +5,7 @@
 * _借鉴 `matyhtf/framework`(https://github.com/matyhtf/framework) 的 `websocket client` 实现 _
 * _需要安装 `php swoole` (https://wiki.swoole.com/wiki/index/prid-1)_
 * _需要安装 `phpunit` (https://phpunit.de/manual/6.5/zh_cn/installation.html)_
+* _`nginx-php-fpm` 的 `docker` 镜像来自 `richarvey/nginx-php-fpm` (https://github.com/richarvey/nginx-php-fpm)_
 
 ### 示例
 
