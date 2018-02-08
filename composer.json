@@ -1,0 +1,31 @@
+{
+  "name": "php-rush/websocket",
+  "description": "php websocket",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alert",
+      "email": "jianyong.me@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "PhpRush\\WebSocket\\": [
+        "src/"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0"
+  }
+}

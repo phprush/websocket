@@ -1,0 +1,10 @@
+version: "2"
+services:
+  web:
+    build: .
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - 10010:80
+    command: /start.sh
+    restart: always
